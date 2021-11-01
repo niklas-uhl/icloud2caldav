@@ -1,0 +1,20 @@
+* icloud2caldav 
+  This project aims to simplify adding your iCloud calendars to CalDAV capable e-mail clients such as Thunderbird.
+
+** Prerequisites
+*** Create an app-specific password
+    To allow the access to your iCloud calendars from external applications, you need to create an app-specific password 
+
+    Follow [[https://support.apple.com/en-us/HT204397][these instructions]].
+    *Important:* Write down your password, because you won't be able to see it later.
+*** Getting the CalDAV URLs
+    Run the script using
+
+    #+begin_src shell
+      python main.py
+    #+end_src
+
+    and enter your Apple ID (your e-mail address) and the app-specific password you created before
+
+    Now copy the desired calendar URLs and add them to your calendar client using the credentials you used before.
+      
